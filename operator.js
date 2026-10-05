@@ -28,8 +28,10 @@ harga[1] * jumlah[1] +
 harga[2] * jumlah[2];
 // console.log(total);
 
-let nilairatarata = [80, 75, 90, 85, 70];
+let nilairatarata = [80, 75, 65, 45, 90, 90, 78, 80, 35, 95];
 let totalratarata = nilairatarata[0] + nilairatarata[1] + 
-nilairatarata[2] + nilairatarata[3] + nilairatarata[4];
-let ratarata = totalratarata / 5;
-console.log(ratarata);
+nilairatarata[2] + nilairatarata[3] + nilairatarata[4] +
+nilairatarata[5] + nilairatarata[6] + nilairatarata[7] + nilairatarata[8] + nilairatarata[9];
+let jumlahsiswa = 10;
+let ratarata = totalratarata / jumlahsiswa;
+console.log("nilai ratarata ict lv. x adalah" + " " + ratarata);
