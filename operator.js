@@ -26,4 +26,10 @@ let total =
 harga[0] * jumlah[0] +
 harga[1] * jumlah[1] +
 harga[2] * jumlah[2];
-console.log(total);
+// console.log(total);
+
+let nilairatarata = [80, 75, 90, 85, 70];
+let totalratarata = nilairatarata[0] + nilairatarata[1] + 
+nilairatarata[2] + nilairatarata[3] + nilairatarata[4];
+let ratarata = totalratarata / 5;
+console.log(ratarata);
