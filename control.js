@@ -12,13 +12,24 @@
 //    // console.log("Belum boleh membuat KTP");
 // }
 
-let berat_kayu = 501;
-if (berat_kayu >= 500) {
-    console.log("overweight ", berat_kayu, "kg");
+// let berat_kayu = 501;
+// if (berat_kayu >= 500) {
+//     console.log("overweight ", berat_kayu, "kg");
+// } 
+// else if (berat_kayu <= 400) {
+//     console.log("berat kayunya", berat_kayu, "kg");
+// }
+//  else {
+//     console.log("ringan kayunya ", berat_kayu, "kg");
+//  }
+
+let menu = "telur asin";
+if (menu == "chiken katsu") {
+    console.log("kalian makan");
 } 
-else if (berat_kayu <= 400) {
-    console.log("berat kayunya", berat_kayu, "kg");
+else if (menu == "telur asin") {
+    console.log("kalian cicipi");
 }
- else {
-    console.log("ringan kayunya ", berat_kayu, "kg");
- }
+else {
+    console.log("tidak makan");
+}
