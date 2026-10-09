@@ -59,13 +59,11 @@
 //     console.log("C");
 // }
 
-let punyaTiket = true;
-let punyaUndangan = true;
-if (punyaTiket && punyaUndangan) {
-    console.log("tamu vip");
-} else if (punyaTiket || punyaUndangan) {
-    console.log("tamu biasa");
-    
-} else {
-    console.log("tidak boleh masuk");
-}
+// let angka =[10, 15, 20, 25];
+// if (angka[3] % 2 === 0) {
+//     console.log("genap");
+// } else {
+//     console.log("ganjil");
+// }
+
+let nama = ["andi", "budi", "caca"];
