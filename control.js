@@ -23,13 +23,46 @@
 //     console.log("ringan kayunya ", berat_kayu, "kg");
 //  }
 
-let menu = "telur asin";
-if (menu == "chiken katsu") {
-    console.log("kalian makan");
-} 
-else if (menu == "telur asin") {
-    console.log("kalian cicipi");
-}
-else {
-    console.log("tidak makan");
+// let menu = "telur asin";
+// if (menu == "chiken katsu") {
+//     console.log("kalian makan");
+// } 
+// else if (menu == "telur asin") {
+//     console.log("kalian cicipi");
+// }
+// else {
+//     console.log("tidak makan");
+// }
+
+
+// let alatTulis = "spidol";
+// if (alatTulis == "bolpoint") {
+//     console.log("alat tulisnya", alatTulis + " , ciaa menulis");
+// }
+// else if (alatTulis == "pensil") {
+//     console.log("alat tulisnya", alatTulis + " , ciaa menulis");
+// }
+// else if (alatTulis == "crayon") {
+//     console.log("alat tulisnya", alatTulis + " , ciaa menggambar");
+// }
+// else {
+//     console.log("alat tulisnya", alatTulis + " , ciaa tidak menulis dan menggambar");
+// }
+
+// let nilai =81;
+// console.log("nilai kamu", nilai);
+// if (nilai >= 90){
+//     console.log("A");
+// } else if (nilai >= 80) {
+//     console.log("B");
+// } else {
+//     console.log("C");
+// }
+
+let punyaTiket = false;
+let punyaUndangan = true;
+if (punyaTiket || punyaUndangan) {
+    console.log("boleh masuk");
+} else {
+    console.log("tidak boleh masuk");
 }
