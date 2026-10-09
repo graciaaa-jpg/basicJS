@@ -59,10 +59,13 @@
 //     console.log("C");
 // }
 
-let punyaTiket = false;
+let punyaTiket = true;
 let punyaUndangan = true;
-if (punyaTiket || punyaUndangan) {
-    console.log("boleh masuk");
+if (punyaTiket && punyaUndangan) {
+    console.log("tamu vip");
+} else if (punyaTiket || punyaUndangan) {
+    console.log("tamu biasa");
+    
 } else {
     console.log("tidak boleh masuk");
 }
