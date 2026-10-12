@@ -66,4 +66,9 @@
 //     console.log("ganjil");
 // }
 
-let nama = ["andi", "budi", "caca"];
+let nama = ["andi", "budi", "citra"];
+if (nama[2] === "citra") {
+    console.log("nama ditemukan");
+} else {
+    console.log("tidak ditemukan");
+}
