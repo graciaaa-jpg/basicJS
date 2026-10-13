@@ -13,3 +13,6 @@ console.log ("nama saya gracia");
 //     console.log(i);
 // }
 
+for (let i = 1; i <= 10; i++) {
+    console.log(i + " x " + 1 + " = " + (i*i));
+}
