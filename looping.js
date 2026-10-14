@@ -1,8 +1,8 @@
-console.log ("nama saya gracia");
-console.log ("nama saya gracia");
-console.log ("nama saya gracia");
-console.log ("nama saya gracia");
-console.log ("nama saya gracia");
+// console.log ("nama saya gracia");
+// console.log ("nama saya gracia");
+// console.log ("nama saya gracia");
+// console.log ("nama saya gracia");
+// console.log ("nama saya gracia");
 
 // for (let i = 5; i >= 0; i--) {
 //     console.log(i);
@@ -13,6 +13,12 @@ console.log ("nama saya gracia");
 //     console.log(i);
 // }
 
-for (let i = 1; i <= 10; i++) {
-    console.log(i + " x " + 1 + " = " + (i*i));
+// for (let i = 1; i <= 10; i++) {
+//     console.log(i + " x " + 1 + " = " + (i*i));
+// }
+
+let total = 0;
+for (let i = 1; i <= 5; i++) {
+    total = total + i;
+    console.log(`i=${i} -> total =${total}`);
 }
