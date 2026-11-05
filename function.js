@@ -96,12 +96,13 @@ function tampilkanUmur() {
     let umur = 17;
     console.log(umur);
 }
-tampilkanUmur();
+// tampilkanUmur();
 
-let beratbadan = 70;
-
+let beratBadan = 80;
 function tampilkanBeratBadan() {
-    let beratbadan = 70;
-    console.log(beratbadan);
+    let beratBadan2 = 70;
+    console.log(beratBadan);
+    console.log(beratBadan2)
 }
-tampilkanBeratBadan();
+// tampilkanBeratBadan();
+
