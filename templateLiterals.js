@@ -18,11 +18,18 @@ if(nilainya >= 75){
 }else{
         status = "tidak lulus";
 }
-console.log(`${namanya} mendapatkan nilai ${nilainya}, status: ${status}`);
+// console.log(`${namanya} mendapatkan nilai ${nilainya}, status: ${status}`);
 
-const namaSiswa = "citra";
-const kelas = 10;
-const nilaiSiswa = 90;
-console.log(`nama: ${namaSiswa}
-kelas: ${kelas}
-nilai: ${nilaiSiswa}`);
+// const namaSiswa = "citra";
+// const kelas = 10;
+// const nilaiSiswa = 90;
+// console.log(`nama: ${namaSiswa}
+// kelas: ${kelas}
+// nilai: ${nilaiSiswa}`);
+
+const siswa = {
+        nama: "dina",
+        kelas: 10,
+        nilai: 80
+};
+console.log(`namanya ${siswa.nama}`);
